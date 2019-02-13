@@ -49,6 +49,9 @@ This model is from Google's paper [Towards End-to-End Prosody Transfer for Expre
 
 ### Multispeaker Tacotron with Global Style Tokens
 
+This model is from Google's paper [Style Tokens: Unsupervised Style Modeling, Control and Transfer in
+End-to-End Speech Synthesis](https://arxiv.org/pdf/1803.09017.pdf), modified by explicitly conditioning on speaker labels.
+
 <figure>
   <figcaption>Multispeaker Samples:</figcaption>
   <audio controls><source src="audio/GST+Multispeaker/sadder/speaker27+sadder.wav" type="audio/wav">Your browser does not support the audio element.</audio>
