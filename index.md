@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Welcome to Poodle TTS
 
 ## ~Jan 2019
