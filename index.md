@@ -39,3 +39,7 @@ Data collection and Speaker adaptation
 ## Q3
 
 Generate text in your own voice! app
+
+
+
+{% include open-embed.html %}
