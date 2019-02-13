@@ -1,3 +1,8 @@
+---
+theme: jekyll-theme-slate
+---
+
+
 # Welcome to Poodle TTS
 
 ## ~Jan 2019
@@ -20,6 +25,10 @@ Samples
 
 Samples
 
+test
+
+<audio controls><source src="audio/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+
 ### Griffin-Lim + WSOLA
 
 Comparison samples
@@ -39,3 +48,6 @@ Data collection and Speaker adaptation
 ## Q3
 
 Generate text in your own voice! app
+
+<script src="/js/jquery.min.js"></script>
+{% include open-embed.html %}
