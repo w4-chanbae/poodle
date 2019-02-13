@@ -35,7 +35,15 @@ Samples
 
 ### Griffin-Lim + WSOLA
 
-Comparison samples
+<figure>
+  <figcaption>Only Griffin-Lim:</figcaption>
+  <audio controls><source src="audio/GL+WSOLA/before.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+  <figcaption>With WSOLA postprocessing:</figcaption>
+  <audio controls><source src="audio/GL+WSOLA/after.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
 
 ## Feb 2019
 
