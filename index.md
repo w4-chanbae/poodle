@@ -25,6 +25,8 @@ Samples
 
 Samples
 
+https://raw.githubusercontent.com/w4-chanbae/poodle/master/audio/speaker5%2Bneutral.wav
+
 ### Griffin-Lim + WSOLA
 
 Comparison samples
