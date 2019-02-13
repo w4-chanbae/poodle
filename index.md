@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-slate
 ---
-{% include open-embed.html %}
+
 
 # Welcome to Poodle TTS
 
@@ -26,7 +26,7 @@ Samples
 Samples
 test
 
-`https://raw.githubusercontent.com/w4-chanbae/poodle/master/audio/speaker5%2Bneutral.wav?autoplay=0&loop=0&controls=1`
+https://raw.githubusercontent.com/w4-chanbae/poodle/master/audio/speaker5%2Bneutral.wav?autoplay=0&loop=0&controls=1
 
 ### Griffin-Lim + WSOLA
 
@@ -49,4 +49,4 @@ Data collection and Speaker adaptation
 Generate text in your own voice! app
 
 
-
+{% include open-embed.html %}
