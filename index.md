@@ -49,5 +49,5 @@ Data collection and Speaker adaptation
 
 Generate text in your own voice! app
 
-
+<script src="/js/jquery.min.js"></script>
 {% include open-embed.html %}
