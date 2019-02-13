@@ -30,6 +30,8 @@ Comparison samples
 
 ### Pausing
 
+### Wavenet
+
 ## Q2
 
 Data collection and Speaker adaptation
