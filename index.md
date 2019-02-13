@@ -25,9 +25,12 @@ Samples
 
 Samples
 
-test
-
-<audio controls><source src="audio/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<figure>
+  <figcaption>Reference/Speaker 1/Speaker 2:</figcaption>
+  <audio controls><source src="audio/GST+Multispeaker/neutral/neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/GST+Multispeaker/neutral/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/GST+Multispeaker/neutral/speaker30+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
 
 ### Griffin-Lim + WSOLA
 
