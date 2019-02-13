@@ -27,7 +27,7 @@ Samples
 
 test
 
-/audio/speaker5+neutral.wav?autoplay=0&loop=0&controls=1
+<audio controls><source src="/audio/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
 
 ### Griffin-Lim + WSOLA
 
