@@ -65,7 +65,7 @@ This model is from Google's paper [Towards End-to-End Prosody Transfer for Expre
 
 
 
-### Griffin-Lim + WSOLA
+### Spectrogram-to-wav comparison
 
 <figure>
   <figcaption>Only Griffin-Lim:</figcaption>
