@@ -1,3 +1,8 @@
+---
+theme: jekyll-theme-slate
+---
+{% include open-embed.html %}
+
 # Welcome to Poodle TTS
 
 ## ~Jan 2019
@@ -42,4 +47,3 @@ Generate text in your own voice! app
 
 
 
-{% include open-embed.html %}
