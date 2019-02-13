@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Welcome to Poodle TTS
 
-You can use the [editor on GitHub](https://github.com/w4-chanbae/poodle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## ~Jan 2019
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### DCTTS
 
-### Markdown
+Samples
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Baseline Tacotron
 
-```markdown
-Syntax highlighted code block
+Image of model
 
-# Header 1
-## Header 2
-### Header 3
+Samples
 
-- Bulleted
-- List
+### Expressive Tacotron
 
-1. Numbered
-2. List
+Samples
 
-**Bold** and _Italic_ and `Code` text
+### Multispeaker Tacotron with Global Style Tokens
 
-[Link](url) and ![Image](src)
-```
+Samples
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Griffin-Lim + WSOLA
 
-### Jekyll Themes
+Comparison samples
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/w4-chanbae/poodle/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Feb 2019
 
-### Support or Contact
+### Pitch and Tempo control
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Pausing
+
+## Q2
+
+Data collection and Speaker adaptation
+
+## Q3
+
+Generate text in your own voice! app
