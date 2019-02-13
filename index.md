@@ -97,15 +97,15 @@ This model is from Google's paper [Towards End-to-End Prosody Transfer for Expre
 
 <figure>
 <figcaption>Spacing</figcaption>
-<audio controls><source src="audio/Pause/0-spaces" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Pause/1-space" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Pause/2-spaces" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Pause/0-spaces.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Pause/1-space.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Pause/2-spaces.wav" type="audio/wav">Your browser does not support the audio element.</audio>
 </figure>
 
 <figure>
 <figcaption>Comma</figcaption>
-<audio controls><source src="audio/Pause/1-comma" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Pause/2-commas" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Pause/1-comma.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Pause/2-commas.wav" type="audio/wav">Your browser does not support the audio element.</audio>
 </figure>
 
 ### Wavenet
