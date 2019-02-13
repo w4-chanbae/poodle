@@ -13,30 +13,13 @@ Samples
 
 ### Baseline Tacotron
 
-This model is from Google's paper [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/pdf/1703.10135.pdf)
+Image of model
 
-![image/tacotron.png](Model Architecture of Tacotron)
-
-<figure>
-  <figcaption>Tacotron Sample:</figcaption>
-  <audio controls><source src="audio/Tacotron/tacotron.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
+Samples
 
 ### Expressive Tacotron
 
-This model is from Google's paper [Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron](https://arxiv.org/pdf/1803.09047.pdf)
-
-![image/extaco.png](Model Architecture of Expressive Tacotron)
-
-<figure>
-  <figcaption>Expressive Tacotron Samples:</figcaption>
-  <audio controls><source src="audio/Expressive-Tacotron/kss-1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/kss-2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/ytn-fast.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/ytn-mad.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/ytn-slow.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
+Samples
 
 ### Multispeaker Tacotron with Global Style Tokens
 
@@ -46,6 +29,12 @@ This model is from Google's paper [Towards End-to-End Prosody Transfer for Expre
   <audio controls><source src="audio/GST+Multispeaker/neutral/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
   <audio controls><source src="audio/GST+Multispeaker/neutral/speaker30+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
   <audio controls><source src="audio/GST+Multispeaker/scared/speaker13+scared.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+  <figcaption>Mimic prosody with GST:</figcaption>
+  <audio controls><source src="audio/GST+Multispeaker/mimic_prosody/sadder.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/GST+Multispeaker/mimic_prosody/sadder_syn.wav" type="audio/wav">Your browser does not support the audio element.</audio>
 </figure>
 
 
@@ -65,18 +54,6 @@ This model is from Google's paper [Towards End-to-End Prosody Transfer for Expre
 ## Feb 2019
 
 ### Pitch and Tempo control
-
-<figure>
-  <figcaption>Speaker 1 (KSS)</figcaption>
-  <audio controls><source src="audio/Pitch+Tempo/slow-low-speaker1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Pitch+Tempo/fast-high-speaker1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
-<figure>
-  <figcaption>Speaker 2 (Zeroth)</figcaption>
-  <audio controls><source src="audio/Pitch+Tempo/slow-low-speaker2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Pitch+Tempo/fast-high-speaker2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
 
 ### Pausing
 
