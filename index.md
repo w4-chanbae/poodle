@@ -26,7 +26,7 @@ This model is from Google's paper [Tacotron: Towards End-to-End Speech Synthesis
 
 This model is from Google's paper [Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron](https://arxiv.org/pdf/1803.09047.pdf)
 
-![Model Architecture of Expressive Tacotron](image/extaco.png)
+![Model Architecture of Expressive Tacotron](https://1.bp.blogspot.com/-gLeFjXaaXAs/WrmeKUvv16I/AAAAAAAACg0/jyB3-yRv4lU3YpBNd55IcSpHyzUDtzarwCLcBGAs/s1600/image1.png)
 
 <figure>
   <figcaption>Expressive Tacotron Samples:</figcaption>
