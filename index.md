@@ -113,6 +113,8 @@ End-to-End Speech Synthesis](https://arxiv.org/pdf/1803.09017.pdf), modified by 
 <audio controls><source src="audio/Pause/2-commas.wav" type="audio/wav">Your browser does not support the audio element.</audio>
 </figure>
 
+### Word embeddings to improve data efficiency
+
 ### Wavenet
 
 ## Q2
