@@ -5,82 +5,23 @@ theme: jekyll-theme-slate
 
 # Welcome to Poodle TTS
 
-## ~Jan 2019
+## Current model
 
-### DCTTS
+Add TC1+GST(?)+Wavenet+Sample efficient speaker adaptation model when ready.
 
-Samples
+Schematic representation of whole model.
 
-### Baseline Tacotron
+## Future Plans
 
-This model is from Google's paper [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/pdf/1703.10135.pdf)
+## Q2
 
-![Model Architecture of Tacotron](image/tacotron.png)
+Data collection and Speaker adaptation
 
-<figure>
-  <figcaption>Tacotron Sample:</figcaption>
-  <audio controls><source src="audio/Tacotron/tacotron.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
+## Q3
 
-### Expressive Tacotron
+Generate text in your own voice! app
 
-This model is from Google's paper [Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron](https://arxiv.org/pdf/1803.09047.pdf)
-
-![Model Architecture of Expressive Tacotron](https://1.bp.blogspot.com/-gLeFjXaaXAs/WrmeKUvv16I/AAAAAAAACg0/jyB3-yRv4lU3YpBNd55IcSpHyzUDtzarwCLcBGAs/s1600/image1.png)
-
-<figure>
-  <figcaption>Expressive Tacotron Samples:</figcaption>
-  <audio controls><source src="audio/Expressive-Tacotron/kss-1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/kss-2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/ytn-fast.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/ytn-mad.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/Expressive-Tacotron/ytn-slow.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
-<figure>
-<figcaption>Corresponding Reference Audios:</figcaption>
-<audio controls><source src="audio/Expressive-Tacotron/ref/kss-1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Expressive-Tacotron/ref/kss-2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Expressive-Tacotron/ref/ytn-fast.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Expressive-Tacotron/ref/ytn-mad.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-<audio controls><source src="audio/Expressive-Tacotron/ref/ytn-slow.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
-
-### Multispeaker Tacotron with Global Style Tokens
-
-This model is from Google's paper [Style Tokens: Unsupervised Style Modeling, Control and Transfer in
-End-to-End Speech Synthesis](https://arxiv.org/pdf/1803.09017.pdf), modified by explicitly conditioning on speaker labels.
-
-![Model Architecture of Global Style Tokens (without speaker embeddings)](image/GST.png)
-
-<figure>
-  <figcaption>Multispeaker Samples:</figcaption>
-  <audio controls><source src="audio/GST+Multispeaker/sadder/speaker27+sadder.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/GST+Multispeaker/neutral/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/GST+Multispeaker/neutral/speaker30+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-  <audio controls><source src="audio/GST+Multispeaker/scared/speaker13+scared.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
-<figure>
- <figcaption>Mimic prosody with GST:</figcaption>
- <audio controls><source src="audio/GST+Multispeaker/mimic_prosody/sadder.wav" type="audio/wav">Your browser does not support the audio element.</audio>
- <audio controls><source src="audio/GST+Multispeaker/mimic_prosody/sadder_syn.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
-
-
-### Spectrogram-to-wav comparison
-
-<figure>
-  <figcaption>Only Griffin-Lim:</figcaption>
-  <audio controls><source src="audio/GL+WSOLA/before.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
-
-<figure>
-  <figcaption>With WSOLA postprocessing:</figcaption>
-  <audio controls><source src="audio/GL+WSOLA/after.wav" type="audio/wav">Your browser does not support the audio element.</audio>
-</figure>
+## History 
 
 ## Feb 2019
 
@@ -117,10 +58,82 @@ End-to-End Speech Synthesis](https://arxiv.org/pdf/1803.09017.pdf), modified by 
 
 ### Wavenet
 
-## Q2
+## ~Jan 2019
 
-Data collection and Speaker adaptation
+### Spectrogram-to-wav comparison
 
-## Q3
+<figure>
+  <figcaption>Only Griffin-Lim:</figcaption>
+  <audio controls><source src="audio/GL+WSOLA/before.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
 
-Generate text in your own voice! app
+<figure>
+  <figcaption>With WSOLA postprocessing:</figcaption>
+  <audio controls><source src="audio/GL+WSOLA/after.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+### Multispeaker Tacotron with Global Style Tokens
+
+This model is from Google's paper [Style Tokens: Unsupervised Style Modeling, Control and Transfer in
+End-to-End Speech Synthesis](https://arxiv.org/pdf/1803.09017.pdf), modified by explicitly conditioning on speaker labels.
+
+![Model Architecture of Global Style Tokens (without speaker embeddings)](image/GST.png)
+
+<figure>
+  <figcaption>Multispeaker Samples:</figcaption>
+  <audio controls><source src="audio/GST+Multispeaker/sadder/speaker27+sadder.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/GST+Multispeaker/neutral/speaker5+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/GST+Multispeaker/neutral/speaker30+neutral.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/GST+Multispeaker/scared/speaker13+scared.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+ <figcaption>Mimic prosody with GST:</figcaption>
+ <audio controls><source src="audio/GST+Multispeaker/mimic_prosody/sadder.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+ <audio controls><source src="audio/GST+Multispeaker/mimic_prosody/sadder_syn.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+### Expressive Tacotron
+
+This model is from Google's paper [Towards End-to-End Prosody Transfer for Expressive Speech Synthesis with Tacotron](https://arxiv.org/pdf/1803.09047.pdf)
+
+![Model Architecture of Expressive Tacotron](https://1.bp.blogspot.com/-gLeFjXaaXAs/WrmeKUvv16I/AAAAAAAACg0/jyB3-yRv4lU3YpBNd55IcSpHyzUDtzarwCLcBGAs/s1600/image1.png)
+
+<figure>
+  <figcaption>Expressive Tacotron Samples:</figcaption>
+  <audio controls><source src="audio/Expressive-Tacotron/kss-1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/Expressive-Tacotron/kss-2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/Expressive-Tacotron/ytn-fast.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/Expressive-Tacotron/ytn-mad.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+  <audio controls><source src="audio/Expressive-Tacotron/ytn-slow.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+<figcaption>Corresponding Reference Audios:</figcaption>
+<audio controls><source src="audio/Expressive-Tacotron/ref/kss-1.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Expressive-Tacotron/ref/kss-2.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Expressive-Tacotron/ref/ytn-fast.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Expressive-Tacotron/ref/ytn-mad.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+<audio controls><source src="audio/Expressive-Tacotron/ref/ytn-slow.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+
+
+### Baseline Tacotron
+
+This model is from Google's paper [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/pdf/1703.10135.pdf)
+
+![Model Architecture of Tacotron](image/tacotron.png)
+
+<figure>
+  <figcaption>Tacotron Sample:</figcaption>
+  <audio controls><source src="audio/Tacotron/tacotron.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+### DCTTS
+
+Samples
+
+
+
+
