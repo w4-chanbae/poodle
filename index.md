@@ -27,6 +27,10 @@ Generate text in your own voice! app
 
 ### Noise-speaker disentangling
 
+Based on [Google's paper] (https://openreview.net/pdf?id=Bkg9ZeBB37)
+
+![Setup](image/adversarial.png)
+
 <figure>
     <figcaption>KSS conditioned on itself / noised version of itself</figcaption>
     <audio controls><source src="audio/Adversarial/kss_on_itself.wav" type="audio/wav">Your browser does not support the audio element.</audio>
