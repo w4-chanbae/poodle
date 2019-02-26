@@ -46,7 +46,7 @@ Generate text in your own voice! app
 </figure>
 
 <figure>
-    <figcaption>YTN conditioned on itself / KSS</figcaption>
+    <figcaption>YTN (Unseen) conditioned on itself / KSS</figcaption>
     <audio controls><source src="audio/Adversarial/ytn_on_itself.wav" type="audio/wav">Your browser does not support the audio element.</audio>
     <audio controls><source src="audio/Adversarial/ytn_on_kss.wav" type="audio/wav">Your browser does not support the audio element.</audio>
 </figure>
