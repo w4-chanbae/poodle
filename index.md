@@ -86,6 +86,8 @@ Based on [Google's paper](https://openreview.net/pdf?id=Bkg9ZeBB37)
 
 ### Word embeddings to improve data efficiency
 
+Adding word embeddings resulted in degraded quality output. 
+
 ### Wavenet
 
 ## ~Jan 2019
