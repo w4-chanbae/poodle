@@ -25,6 +25,32 @@ Generate text in your own voice! app
 
 ## Feb 2019
 
+### Noise-speaker disentangling
+
+<figure>
+    <figcaption>KSS conditioned on itself / noised version of itself</figcaption>
+    <audio controls><source src="audio/Adversarial/kss_on_itself.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+    <audio controls><source src="audio/Adversarial/kss_on_noised.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+    <figcaption>Zeroth speaker 97 conditioned on itself / KSS</figcaption>
+    <audio controls><source src="audio/Adversarial/zeroth97_on_itself.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+    <audio controls><source src="audio/Adversarial/zeroth97_on_kss.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+    <figcaption>Zeroth speaker 10 conditioned on itself / KSS</figcaption>
+    <audio controls><source src="audio/Adversarial/zeroth10_on_itself.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+    <audio controls><source src="audio/Adversarial/zeroth10_on_kss.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
+<figure>
+    <figcaption>YTN conditioned on itself / KSS</figcaption>
+    <audio controls><source src="audio/Adversarial/ytn_on_itself.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+    <audio controls><source src="audio/Adversarial/ytn_on_kss.wav" type="audio/wav">Your browser does not support the audio element.</audio>
+</figure>
+
 ### Pitch and Tempo control
 
 <figure>
