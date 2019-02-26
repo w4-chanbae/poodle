@@ -27,7 +27,7 @@ Generate text in your own voice! app
 
 ### Noise-speaker disentangling
 
-Based on [Google's paper] (https://openreview.net/pdf?id=Bkg9ZeBB37)
+Based on [Google's paper](https://openreview.net/pdf?id=Bkg9ZeBB37)
 
 ![Setup](image/adversarial.png)
 
